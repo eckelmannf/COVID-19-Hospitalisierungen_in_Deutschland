@@ -17,7 +17,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:      
-      - name: Create orphaned branch
+      - name: Pull OpenDataPage
         # run: git clone https://github.com/whoohoo86/gh-open-data-page.git
         uses: actions/checkout@v2
         with:
